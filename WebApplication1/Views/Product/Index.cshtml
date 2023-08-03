@@ -1,0 +1,13 @@
+﻿@model List<WebApplication1.DTOs.Products.GetProductDto>;
+
+<h1>Hello World</h1>
+
+
+<ul>
+    @foreach(var product in Model)
+    {
+        <li>@product.Name</li>
+        <li>@product.Price</li>
+        <li>---------------</li>
+    }
+</ul>
